@@ -119,21 +119,11 @@
                  <label> Post Author  : </label>
                 <h4>{{postBlog.author}}</h4>
             </div>
-
-
-
-
-                    </div>
-
-                </div>
-
-                </div>
-                </div>
-                
-               
-            
-           
-           
+            </div>
+            </div>
+            </div>
+            </div>
+ 
           
         </div>
 
@@ -168,7 +158,6 @@ export default {
     },
 
     updatePost(i){
-            
             swal({
                 title: "Are you sure?",
                 text: "Once you Update, previous post will be lost",
@@ -260,7 +249,6 @@ export default {
   },
   created(){
           this.getallBlogs()
-
     }
    
     

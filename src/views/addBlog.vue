@@ -4,11 +4,11 @@
             <center>
             <div class="card" style="width: 18rem;">
             <div class="card-body">
-          <h5 class="card-title">Hi! <br> Welcome Admin</h5>
-         <p class="card-text">it's {{date()}}</p>
+              <h5 class="card-title">Hi! <br> Welcome Admin</h5>
+              <p class="card-text">it's {{date()}}</p>
           <button class="btn btn-secondary"  @click="showForm"> Create Blog Post</button>  
-        </div>
-         </div>
+          </div>
+           </div>
          </center>
          </div>
             

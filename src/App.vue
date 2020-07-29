@@ -2,7 +2,6 @@
   <div id="app">
       <div class="wrapper">
         <app-Navbar/>
-    
     <router-view/>
       </div>
   </div>
